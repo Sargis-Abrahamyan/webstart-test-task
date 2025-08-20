@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+.reels-scroll {
+    display: flex;
+    gap: 2rem; /* space between items */
+    overflow-x: auto;
+    scroll-behavior: smooth; /* smooth scrolling when using scrollTo or anchors */
+
+    cursor: grab; /* shows grab icon */
+    -webkit-overflow-scrolling: touch; /* smooth momentum scrolling on iOS */
+}
+
+.reels-scroll:active {
+    cursor: grabbing; /* changes cursor while dragging */
+}
+
+/* Hide default scrollbar */
+.reels-scroll::-webkit-scrollbar {
+    display: none;
+}
+.reels-scroll {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
