@@ -14,8 +14,8 @@ const ReelsCircle: React.FC<ReelsCircleProps> = ({
     handleOpenSlider,
 }) => {
     return (
-        <div className='w-[114px] flex flex-col items-center' onClick={() => handleOpenSlider(id)}>
-            <div className='rounded-[50%] size-[114px] border-3 border-gray-300 p-2.5 cursor-pointer overflow-hidden hover:border-[#e31335] transition'>
+        <div className='w-[90px] md:w-[114px] flex flex-col items-center' onClick={() => handleOpenSlider(id)}>
+            <div className='rounded-[50%] w-[90px] md:size-[114px] border-3 border-gray-300 p-2.5 cursor-pointer overflow-hidden hover:border-[#e31335] transition'>
                 <img
                     src={`${imagesPath}/${main_photo}`}
                     alt={title_en}

@@ -46,7 +46,7 @@ const Reels = () => {
             <h2 className='text-lg sm:text-2xl lg:text-3xl font-bold mb-6 uppercase'>Reels</h2>
 
             {/* Circles row */}
-            <div className='reels-scroll'>{memoizedCircles}</div>
+            <div className='reels-scroll flex gap-x-1.5 md:gap-x-2'>{memoizedCircles}</div>
             {/* Modal with Swiper */}
             <Modal isOpen={isOpen}>
                 <ReelsSlider

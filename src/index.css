@@ -1,8 +1,7 @@
 @import "tailwindcss";
 
 .reels-scroll {
-    display: flex;
-    gap: 2rem; /* space between items */
+   
     overflow-x: auto;
     scroll-behavior: smooth; /* smooth scrolling when using scrollTo or anchors */
 

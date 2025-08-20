@@ -1,11 +1,7 @@
 import Reels from "./components/reels/ReelsList";
 
 const App = () => {
-    return (
-        <div>
-            <Reels />
-        </div>
-    );
+    return <Reels />;
 };
 
 export default App;
